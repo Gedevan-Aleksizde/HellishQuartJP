@@ -1,0 +1,6 @@
+[submodule "MelonLoader"]
+	path = MelonLoader
+	url = git@github.com:LavaGang/MelonLoader.git
+[submodule "XUnity.AutoTranslator"]
+	path = XUnity.AutoTranslator
+	url = git@github.com:bbepis/XUnity.AutoTranslator.git
