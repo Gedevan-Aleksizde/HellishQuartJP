@@ -7,9 +7,9 @@ NOTE: The introduction is written at the end in English.
 # 要件
 
 * 64 bit Windows OS
-        * Linux版の場合, protontricks を併用すれば動作します [詳細](https://melonwiki.xyz/#/README?id=linux-instructions).
+    * Linux版の場合, protontricks を併用すれば動作します [詳細](https://melonwiki.xyz/#/README?id=linux-instructions).
 * 最新の Steam版 Hellish Quart
-        * Steam版のみ動作を確認しています. GOG版は持ってないので動作確認していません. 動作確認報告は歓迎します.
+	* Steam版のみ動作を確認しています. GOG版は持ってないので動作確認していません. 動作確認報告は歓迎します.
 
 # インストール方法
 
@@ -36,28 +36,28 @@ Hellish Quart インストールフォルダの
 # 技術的補足
 
 * 配布プログラムは [MelonLoader](https://github.com/LavaGang/MelonLoader) および MelonLoader 版 [XUnity Auto Translator](https://github.com/bbepis/XUnity.AutoTranslator) (以下, XUAT), そして私が独自に作成した翻訳テキストの生成プログラムを同梱しているだけです
-        * 翻訳機能の詳細は元プログラムのリンクを参照してください
-        * よって既に MelonLoader や XUAT を使用しているなら, 足りないファイルを上書きするだけでも動作するはずです
-        * ただし, MelonLoader はv0.5.4では動作しません. v0.5.3を使用してください
+    * 翻訳機能の詳細は元プログラムのリンクを参照してください
+    * よって既に MelonLoader や XUAT を使用しているなら, 足りないファイルを上書きするだけでも動作するはずです
+    * ただし, MelonLoader はv0.5.4では動作しません. v0.5.3を使用してください
 * 翻訳テキストのフォントは "Yu Mincho" (游明朝) を指定してますが, マシンにインストールされているフォントであれば他のものも使用できると思います. `AutoTranslator/Config.ini` の `OverrideFont` の項目を書き換えることで変更できます
 * 現状ではフォントの大きさ調整ができないため, 文字が見切れてる箇所がいくらかあります
 * 手動でビルドしたい場合, MelonLoader, XUnity をそれぞれ sln ファイルに従ってビルドし, ps1 を実行すれば同じ構成のファイルが生成されるはずです
-        * 現時点ではテキストは暗号化されています (ソースコードを読めば簡単に復号できます)
-        * インストーラは Nullsoft Scriptable Install System を使用して作成しています
+    * 現時点ではテキストは暗号化されています (ソースコードを読めば簡単に復号できます)
+    * インストーラは Nullsoft Scriptable Install System を使用して作成しています
 
 # Credits
 
 * This program includes:
-        * [Melonloader](https://github.com/LavaGang/MelonLoader) developed by Lava Gang, licensed under the Apache-2.0 license.
-        * [Xunity Auto Translator](https://github.com/bbepis/XUnity.AutoTranslator), MIT licensed
+    * [Melonloader](https://github.com/LavaGang/MelonLoader) developed by Lava Gang, licensed under the Apache-2.0 license.
+    * [Xunity Auto Translator](https://github.com/bbepis/XUnity.AutoTranslator), MIT licensed
 * The original text rights belong to Kubold
 
 # Requirements
 
 * 64 bit Windows OS
-        * Linux版の場合, protontricks を併用すれば動作します (詳細)[https://melonwiki.xyz/#/README?id=linux-instructions].
+    * Linux版の場合, protontricks を併用すれば動作します (詳細)[https://melonwiki.xyz/#/README?id=linux-instructions].
 * Latest Hellish Quart from Steam
-        * I check only Steam version.
+    * I check only Steam version.
 
 # How to install
 
@@ -78,10 +78,11 @@ In addition, if you don't use any other mods which depend on MelonLoader, delte 
 * `NOTICE.txt`
 
 # Technical Notes:
-        * This mod is made of [MelonLoader](https://github.com/LavaGang/MelonLoader), [XUnity Auto Translator](https://github.com/bbepis/XUnity.AutoTranslator) and my translation files. The latter is my only attribution.
-                * You can install MelonLoader and XUAT manually. If you already installed them, what you need is copy `AutoTranslator` folder into the game folder.
-                * **Note**: the latest MelonLoader (v0.5.4) shouldn't work. install v0.5.3 insteadly if you want to install it manually.  
-        * Default font for translated text is "Yu Mincho" (游明朝, one of standard Japanese font family for Windows OS). You can change the font at `OverrideFont` field in `AutoTranslator/Config.ini` file.
-        * Some text may be trimmed because I can't change the size.
-        * **I wish officially support for localization**
-        * If you want to build this mod by yourself, build the dependent two mods (XUAT and MelonLoader) following their sln files, then run `make-installer.ps1` 
+
+* This mod is made of [MelonLoader](https://github.com/LavaGang/MelonLoader), [XUnity Auto Translator](https://github.com/bbepis/XUnity.AutoTranslator) and my translation files. The latter is my only attribution.
+    * You can install MelonLoader and XUAT manually. If you already installed them, what you need is copy `AutoTranslator` folder into the game folder.
+    * **Note**: the latest MelonLoader (v0.5.4) shouldn't work. install v0.5.3 insteadly if you want to install it manually.  
+* Default font for translated text is "Yu Mincho" (游明朝, one of standard Japanese font family for Windows OS). You can change the font at `OverrideFont` field in `AutoTranslator/Config.ini` file.
+* Some text may be trimmed because I can't change the size.
+* **I wish officially support for localization**
+* If you want to build this mod by yourself, build the dependent two mods (XUAT and MelonLoader) following their sln files, then run `make-installer.ps1` 
