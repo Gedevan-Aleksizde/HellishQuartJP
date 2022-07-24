@@ -4,7 +4,7 @@
 
 NOTE: The introduction is written at the end in English.
 
-![cover](/../master/doc/cover.jpg?raw=true)
+![cover](doc/cover.jpg)
 
 # 要件
 
