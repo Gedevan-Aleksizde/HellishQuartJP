@@ -4,7 +4,7 @@
 
 NOTE: The introduction is written at the end in English.
 
-![cover](https://raw.githubusercontent.com/Gedevan-Aleksizde/HellshQuartJP/master/doc/cover.jpg)
+![cover](/../master/doc/cover.jpg?raw=true)
 
 # 要件
 
