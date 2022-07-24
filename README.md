@@ -4,6 +4,8 @@
 
 NOTE: The introduction is written at the end in English.
 
+![cover](https://raw.githubusercontent.com/Gedevan-Aleksizde/HellshQuartJP/master/doc/cover.jpg)
+
 # 要件
 
 * 64 bit Windows OS
