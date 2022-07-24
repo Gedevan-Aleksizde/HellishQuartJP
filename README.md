@@ -57,9 +57,9 @@ Hellish Quart インストールフォルダの
 # Requirements
 
 * 64 bit Windows OS
-    * If your machine is Linux OS, it may works with protontricks (detail)[https://melonwiki.xyz/#/README?id=linux-instructions].
+    * If your machine is Linux OS, it may works with protontricks [detail](https://melonwiki.xyz/#/README?id=linux-instructions)
 * Latest Hellish Quart from Steam
-    * I check only Steam version. I don't have GOG version.
+    * I check only Steam version. I don't have GOG version
 
 # How to install
 
