@@ -57,11 +57,11 @@ Hellish Quart インストールフォルダの
 * 64 bit Windows OS
     * Linux版の場合, protontricks を併用すれば動作します (詳細)[https://melonwiki.xyz/#/README?id=linux-instructions].
 * Latest Hellish Quart from Steam
-    * I check only Steam version.
+    * I check only Steam version. I don't have GOG version.
 
 # How to install
 
-Download  `HellishQuartJP-standalone-installer-v{VERSION}.exe` and run.
+Download  `HellishQuartJP-installer-v{VERSION}.exe` and run.
 
 # How to uninstall
 
