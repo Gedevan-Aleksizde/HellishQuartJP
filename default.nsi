@@ -1,7 +1,7 @@
 # imihumei
 Name "Hellish Quart JP"
 ;InstallDir "C:\Program Files (x86)\Steam\steamapps\common\Hellish Quart"
-OutFile "release\HellishQuartJP.exe"
+OutFile "release\HellishQuartJP-installer-1.0.exe"
 !include "MUI2.nsh"
 !include x64.nsh
 !include LogicLib.nsh
