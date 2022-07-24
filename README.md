@@ -2,7 +2,7 @@
 
 [Hellish Quart](https://store.steampowered.com/app/1000360/Hellish_Quart/) のテキストを日本語化します
 
-NOTE: The introduction is written at the end in English.
+NOTE: The introduction is written in English at the end.
 
 ![cover](doc/cover.jpg)
 
