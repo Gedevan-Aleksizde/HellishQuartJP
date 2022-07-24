@@ -7,7 +7,7 @@ NOTE: The introduction is written at the end in English.
 # 要件
 
 * 64 bit Windows OS
-        * Linux版の場合, protontricks を併用すれば動作します (詳細)[https://melonwiki.xyz/#/README?id=linux-instructions].
+        * Linux版の場合, protontricks を併用すれば動作します [詳細](https://melonwiki.xyz/#/README?id=linux-instructions).
 * 最新の Steam版 Hellish Quart
         * Steam版のみ動作を確認しています. GOG版は持ってないので動作確認していません. 動作確認報告は歓迎します.
 
