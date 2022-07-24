@@ -84,5 +84,6 @@ In addition, if you don't use any other mods which depend on MelonLoader, delte 
     * **Note**: the latest MelonLoader (v0.5.4) shouldn't work. install v0.5.3 insteadly if you want to install it manually.  
 * Default font for translated text is "Yu Mincho" (游明朝, one of standard Japanese font family for Windows OS). You can change the font at `OverrideFont` field in `AutoTranslator/Config.ini` file.
 * Some text may be trimmed because I can't change the size.
-* **I wish officially support for localization**
 * If you want to build this mod by yourself, build the dependent two mods (XUAT and MelonLoader) following their sln files, then run `make-installer.ps1` 
+
+# **I wish officially support for localization**
