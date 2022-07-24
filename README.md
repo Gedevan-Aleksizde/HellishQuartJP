@@ -88,11 +88,11 @@ In addition, if you don't use any other mods which depend on MelonLoader, delte 
 * Some text may be trimmed because I can't change the size.
 * If you want to build this mod by yourself, build the dependent two mods (XUAT and MelonLoader) following their sln files, then run `make-installer.ps1` 
 
-# **I wish officially support for localization**
-
 # Credits
 
 * This program includes:
     * [Melonloader](https://github.com/LavaGang/MelonLoader) developed by Lava Gang, licensed under the Apache-2.0 license.
     * [Xunity Auto Translator](https://github.com/bbepis/XUnity.AutoTranslator), MIT licensed
 * The original text rights belong to Kubold
+
+# **I wish officially support for localization**
