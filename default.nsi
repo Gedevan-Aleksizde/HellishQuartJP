@@ -5,7 +5,7 @@
 Unicode true
 Name "Hellish Quart JP"
 ;InstallDir "C:\Program Files (x86)\Steam\steamapps\common\Hellish Quart"
-OutFile "release\HellishQuartJP-installer-1.0.exe"
+OutFile "release\HellishQuartJP-installer-${VERSION}.exe"
 
 ;-----------------------------------
 ;Interface Settings
@@ -41,7 +41,7 @@ OutFile "release\HellishQuartJP-installer-1.0.exe"
     !insertmacro MUI_LANGUAGE "English"
     !insertmacro MUI_LANGUAGE "Japanese"
     LangString DirNotExist ${LANG_Japanese} "$InstDir は存在しません. インストール時に作成しますか?"
-    LangString DirNotExist ${LANG_English} "$InstDir does not exist. create during installation?"
+    LangString DirNotExist ${LANG_English} "$InstDir does not exist. Do you want to create the folder with the new installer?"
 
 ; ------------------------------------
 Function .onInit
