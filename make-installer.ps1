@@ -1,4 +1,4 @@
-Param($arch = "x64", $lang = "ja")
+Param($arch = "x64", $lang = "ja", [switch]$skipBuild)
 
 ${VERSION} = "1.1"
 ${BuildDirML} = "MelonLoader/Output/Release"
@@ -8,6 +8,17 @@ ${OutDir} = "release/HellishQuartJP"
 
 Write-Output "Archtecture: ${arch}"
 Write-Output "Output language: ${lang}"
+
+if ($skipBuild) {
+} else {
+    # Build dependencies
+    Set-Location MelonLoader
+    & "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv" MelonLoader.sln -Build
+    Set-Location ../XUnity.AutoTranslator
+    & "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv" XUnity.AutoTranslator.sln -Build
+    Set-Location ../
+}
+
 
 mkdir ${OutDir} -ea 0 | Out-Null
 # MelonLoader
