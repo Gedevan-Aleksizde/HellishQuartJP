@@ -43,7 +43,8 @@ Hellish Quart インストールフォルダの
     * ただし, MelonLoader はv0.5.4では動作しません. v0.5.3を使用してください
 * 翻訳テキストのフォントは "Yu Mincho" (游明朝) を指定してますが, マシンにインストールされているフォントであれば他のものも使用できると思います. `AutoTranslator/Config.ini` の `OverrideFont` の項目を書き換えることで変更できます
 * 現状ではフォントの大きさ調整ができないため, 文字が見切れてる箇所がいくらかあります
-* 手動でビルドしたい場合, MelonLoader, XUnity をそれぞれ sln ファイルに従ってビルドし, ps1 を実行すれば同じ構成のファイルが生成されるはずです
+* 手動でビルドしたい場合, `make-installer.ps1` を実行すれば同じ構成のファイルが生成されるはずです
+    * .NET とか Visual Studio とかが必要です
     * 現時点ではテキストは暗号化されています (ソースコードを読めば簡単に復号できます)
     * インストーラは Nullsoft Scriptable Install System を使用して作成しています
 
@@ -86,7 +87,7 @@ In addition, if you don't use any other mods which depend on MelonLoader, delte 
     * **Note**: the latest MelonLoader (v0.5.4) shouldn't work. install v0.5.3 insteadly if you want to install it manually.  
 * Default font for translated text is "Yu Mincho" (游明朝, one of standard Japanese font family for Windows OS). You can change the font at `OverrideFont` field in `AutoTranslator/Config.ini` file.
 * Some text may be trimmed because I can't change the size.
-* If you want to build this mod by yourself, build the dependent two mods (XUAT and MelonLoader) following their sln files, then run `make-installer.ps1` I create the installer by Nullsoft Scriptable Install System (NSIS)
+* If you want to build this mod by yourself, run `make-installer.ps1`. I create the installer by Nullsoft Scriptable Install System (NSIS)
 
 # Credits
 
