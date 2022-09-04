@@ -8,8 +8,8 @@ NOTE: The introduction is written in English at the end.
 
 # 要件
 
-* 64 bit Windows OS
-    * Linux版の場合, protontricks を併用すれば動作します [詳細](https://melonwiki.xyz/#/README?id=linux-instructions).
+* 64 bit Windows OS または Linux
+	* Linuxの場合, protontricks を併用すれば動作します [詳細](https://melonwiki.xyz/#/README?id=linux-instructions).
 * 最新の Steam版 Hellish Quart
 	* Steam版のみ動作を確認しています. GOG版は持ってないので動作確認していません. 動作確認報告は歓迎します.
 
@@ -47,6 +47,7 @@ Hellish Quart インストールフォルダの
     * .NET とか Visual Studio とかが必要です
     * 現時点ではテキストは暗号化されています (ソースコードを読めば簡単に復号できます)
     * インストーラは Nullsoft Scriptable Install System を使用して作成しています
+* コマンド解説等の記事もご覧ください: https://under-identified.hatenablog.com/entry/2021/05/04/184614
 
 # Credits
 
@@ -57,8 +58,8 @@ Hellish Quart インストールフォルダの
 
 # Requirements
 
-* 64 bit Windows OS
-    * If your machine is Linux OS, it may works with protontricks ([detail](https://melonwiki.xyz/#/README?id=linux-instructions))
+* 64 bit Windows OS or Linux
+    * If you use Linux OS, it may works with protontricks ([detail](https://melonwiki.xyz/#/README?id=linux-instructions))
 * Latest Hellish Quart from Steam
     * I check only Steam version. I don't have GOG version
 
