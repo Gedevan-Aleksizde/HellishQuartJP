@@ -1,6 +1,6 @@
 Param($arch = "x64", $lang = "ja", [switch]$build)
 
-${VERSION} = "1.3-2022.08.19"
+${VERSION} = "1.4-2022.09.03"
 ${BuildDirML} = "MelonLoader/Output/Release"
 ${BuildDirXU} = "XUnity.AutoTranslator/dist"
 ${ConfDir} = "XUATConfig"
