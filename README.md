@@ -17,6 +17,8 @@ NOTE: The introduction is written in English at the end.
 
 "[Releases](https://github.com/Gedevan-Aleksizde/HellishQuartJP/releases)" から最新の `HellishQuartJP-installer-{バージョン}-{HQ本体バージョン}.exe` をダウンロードし, 実行してください. インストールフォルダは自動判定されますが, 必要に応じて Hellish Quart のインストールフォルダ (`Hellish Quart.exe` のある場所) に修正してください.
 
+(GOG版のレジストリキーがわからないため, GOG版はおそらく手動でインストール先を指定する必要があります)
+
 # アンインストール方法
 
 Hellish Quart インストールフォルダの
