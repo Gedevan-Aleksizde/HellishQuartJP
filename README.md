@@ -9,7 +9,7 @@ NOTE: The introduction is written in English at the end.
 # 要件
 
 * 64 bit Windows OS または Linux
-	* Linuxの場合, protontricks を併用すれば動作します [詳細](https://melonwiki.xyz/#/README?id=linux-instructions).
+	* Linuxの場合, protontricks を併用すれば動作します (後述).
 * 最新の Steam版 Hellish Quart
 	* Steam版のみ動作を確認しています. GOG版は持ってないので動作確認していません. 動作確認報告は歓迎します.
 
@@ -19,6 +19,24 @@ NOTE: The introduction is written in English at the end.
 	* バージョンはなるべく最新のものを選んでください. 本体より少し古いバージョンのものをインストールしても一応動作することが多いです.
 * インストールフォルダは自動判定されますが, 必要に応じて Hellish Quart のインストールフォルダ (`Hellish Quart.exe` のある場所) に修正してください.
 	* (GOG版のレジストリキーがわからないため, GOG版はおそらく手動でインストール先を指定する必要があります)
+
+## Linux (たぶん Steam Deck も) の場合
+
+MelonLoader を動作させるために追加で操作が必要かもしれません. ([詳細](https://melonwiki.xyz/#/README?id=linux-instructions))
+
+1. Protontrick をインストールしていない場合, インストールしてください. 例えば Arch Linux 系なら, `yay -S protontricks` `yay -S protontricks-git` コマンドでできます.
+    * それ以外の Linux ディストリビューションの場合は, flatpak でインストールするのが推奨されています (https://github.com/Matoking/protontricks)
+1. `~/.local/share/Steam/steamapps/compatdata/1000360` を一度削除してから Hellish Quart を起動する
+1. `protontricks 1000360 winecfg` を実行し, 出てきたウィンドウの下のほうにある項目から, Windows のバージョンを Windows 10 にする
+
+もしうまく行かない場合, 以下のどちらかを実行すると動作するかもしれません
+
+* `protontricks 1000360 --force vcrun2019`
+* `protontricks 1000360 --force dotnet472`
+
+* 1000360 というのは Hellish Quart の App ID です. 環境によって異なるということはないと思いますが, もし見つからなかったら `protontricks -s Hellish` で ID を確認してください.
+
+
 
 # アンインストール方法
 
