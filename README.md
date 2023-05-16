@@ -15,10 +15,14 @@ NOTE: The introduction is written in English at the end.
 
 # インストール方法
 
-* "[Releases](https://github.com/Gedevan-Aleksizde/HellishQuartJP/releases)" から最新の `HellishQuartJP-installer-{バージョン}-{HQ本体バージョン}.exe` をダウンロードし, 実行してください. 
+* "[Releases](https://github.com/Gedevan-Aleksizde/HellishQuartJP/releases)" から最新の `HellishQuartJP-installer-{バージョン}-{HQ本体バージョン}.exe` または, ---`.zip`をダウンロードしてください. 
 	* バージョンはなるべく最新のものを選んでください. 本体より少し古いバージョンのものをインストールしても一応動作することが多いです.
-* インストールフォルダは自動判定されますが, 必要に応じて Hellish Quart のインストールフォルダ (`Hellish Quart.exe` のある場所) に修正してください.
+* (EXE形式の場合) EXEファイルを実行してください. インストールフォルダは自動判定されますが, 必要に応じて Hellish Quart のインストールフォルダ (`Hellish Quart.exe` のある場所) に修正してください.
 	* (GOG版のレジストリキーがわからないため, GOG版はおそらく手動でインストール先を指定する必要があります)
+* (ZIP形式の場合) ZIPを解凍してHellish Quartのインストールフォルダ内に上書きしてください
+* 2023年5月ごろのアップデートから, 本体にも日本語テキストが追加されましたが今のところ機械翻訳に放り投げただけっぽいので不正確です. このmodの日本語を表示させたい場合は, 言語選択で"English"になっていることを確認してください.
+
+![cover](doc/language-beta1.jpg)
 
 ## Linux (たぶん Steam Deck も) の場合
 
