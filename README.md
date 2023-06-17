@@ -17,7 +17,7 @@ NOTE: The introduction is written in English at the end.
 
 * "[Releases](https://github.com/Gedevan-Aleksizde/HellishQuartJP/releases)" から最新の `HellishQuartJP-installer-{バージョン}-{HQ本体バージョン}.exe` または, ---`.zip`をダウンロードしてください. 
 	* バージョンはなるべく最新のものを選んでください. 本体より少し古いバージョンのものをインストールしても一応動作することが多いです.
-        * v0.10.0 から [Nexus](https://www.nexusmods.com/hellishquart/mods/7)でも公開しました. 
+        * v1.10.0 から [Nexus](https://www.nexusmods.com/hellishquart/mods/7)でも公開しました. 
 * (EXE形式の場合) EXEファイルを実行してください. インストールフォルダは自動判定されますが, 必要に応じて Hellish Quart のインストールフォルダ (`Hellish Quart.exe` のある場所) に修正してください.
 	* (GOG版のレジストリキーがわからないため, GOG版はおそらく手動でインストール先を指定する必要があります)
 * (ZIP形式の場合) ZIPを解凍してHellish Quartのインストールフォルダ内に上書きしてください
