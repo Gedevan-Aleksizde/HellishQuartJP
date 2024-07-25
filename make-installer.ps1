@@ -1,6 +1,6 @@
 Param($arch = "x64", $lang = "ja", [switch]$build)
 
-${VERSION} = "1.3.0-2024.06.15.0"
+${VERSION} = "1.3.1-2024.07.09.0"
 ${BuildDirML} = "MelonLoader/Output/Release"
 ${BuildDirXU} = "XUnity.AutoTranslator/dist"
 ${ConfDir} = "XUATConfig"
@@ -33,7 +33,7 @@ Copy-Item "${BuildDirXU}/MelonMod/*" "${OutDir}/" -Force -Recurse
 # XUnity config and text
 mkdir "${OutDir}/AutoTranslator/Translation/${lang}/Text" -Force -ea 0 | Out-Null
 Copy-Item "${ConfDir}/Config.ini" "${OutDir}/AutoTranslator" -Force
-$encryptedKey = (1..16)
+#$encryptedKey = (1..16)
 #$encryptedText = Get-Content "text/encrypted.txt" | ConvertTo-SecureString -Key $encryptedKey
 #[System.Runtime.InteropServices.Marshal]::PtrToStringUni(
 #    [System.Runtime.InteropServices.Marshal]::SecureStringToCoTaskMemUnicode(
